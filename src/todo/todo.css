@@ -1,0 +1,46 @@
+.app-header{
+  color: indigo;
+}
+
+ul#todoList {
+  list-style: none;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+ul#todoList li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo__control{
+  border: 1px solid indigo;
+  height: 30px;
+  padding-left: 10px;
+  margin-right: 0;
+  box-sizing: border-box;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-right: none;
+}
+.todo__control:focus-visible {
+  outline: none;
+}
+.todo__button-primary{
+  border: none;
+  height: 30px;
+  margin-left: 0;
+  padding: 0 10px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  background: indigo;
+  color: white;
+  box-sizing: border-box;
+}
+
+.complete{
+  text-decoration: line-through;
+}

@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  margin: auto;
+  padding: 20px;
+  width: 75%;
+  background: rgb(248, 248, 250);
 }
 
 .App-logo {
